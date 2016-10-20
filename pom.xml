@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>git-login</module>
+        <module>git-profile</module>
     </modules>
 
     <name>Git Framework</name>
