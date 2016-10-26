@@ -7,18 +7,19 @@ import java.util.Scanner;
  */
 public class LoginApplication {
 
-    public static void main(String[] args) {
+  public static void main(String... args) {
 
-        LoginSingleton login = LoginSingleton.getInstance();
+    LoginSingleton login = LoginSingleton.getInstance();
 
-        Scanner in = new Scanner(System.in);
-        System.out.println("GitHub username: ");
-        String user = in.nextLine();
+    Scanner in = new Scanner(System.in);
+    System.out.println("GitHub username: ");
+    String user = in.nextLine();
 
-        System.out.println("GitHub password: ");
-        String password = in.nextLine();
+    System.out.println("GitHub password: ");
+    String password = in.nextLine();
+    in.close();
 
-        login.signIn(user, password);
+    login.signIn(user, password);
 
-    }
+  }
 }
