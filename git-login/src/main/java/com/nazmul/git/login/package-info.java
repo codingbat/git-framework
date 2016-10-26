@@ -13,5 +13,13 @@ package com.nazmul.git.login;
  * Q. Can I use dependency injection to solve the problem?
  * <p>
  * <p>
- * Q. Is Singleton overkill for the login purpose?
+ * Q. Is Singleton overkill for the signIn purpose?
+ *
+ *
+ *
+ * Purpose
+ * The Singleton design pattern addresses all of these concerns. With the Singleton design pattern you can:
+ *      Ensure that only one instance of a class is created
+ *      Provide a global point of access to the object
+ *      Allow multiple instances in the future without affecting a singleton class's clients
  */
